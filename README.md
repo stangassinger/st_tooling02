@@ -2,12 +2,12 @@
 contains cubemx and stm32cubeide
 ##  Split
 ### cd cubemx  
-### split -b 40M  en.stm32cubemx_v5-6-1.zip 
+### split -b 40M  en.stm32cubemx_v5-6-1.zip cubemx-
 ##  Concatinate
-### cubemx- cat cubemx-*  >  en.stm32cubemx_v5-6-0.zip
+### cat cubemx-*  >  en.stm32cubemx_v5-6-0.zip
 ##  Split
 ### cd cubeide 
-### split -b 40M  en.st-stm32cubeide_1.3.0_5720_20200220_1053_amd64.deb_bundle.sh.zip 
+### split -b 40M  en.st-stm32cubeide_1.3.0_5720_20200220_1053_amd64.deb_bundle.sh.zip  cubeide-
 ##  Concatinate
-### cubeide- cat cubeide-* > en.st-stm32cubeide_1.3.0_5720_20200220_1053_amd64.deb_bundle.sh.zip
+### cat cubeide-* > en.st-stm32cubeide_1.3.0_5720_20200220_1053_amd64.deb_bundle.sh.zip
                                                        
